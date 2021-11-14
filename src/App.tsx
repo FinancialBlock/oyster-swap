@@ -12,7 +12,7 @@ function App() {
         </div>
       </div>
       <Routes />
-      <div className="social-buttons">
+{/*      <div className="social-buttons">
         <GitHubButton
           href="https://github.com/project-serum/oyster-swap"
           data-color-scheme="no-preference: light; light: light; dark: light;"
@@ -30,8 +30,8 @@ function App() {
           aria-label="Fork project-serum/oyster-swap on GitHub"
         >
           Fork
-        </GitHubButton>
-      </div>
+        </GitHubButton>*/}
+      {/*</div>*/}
     </div>
   );
 }

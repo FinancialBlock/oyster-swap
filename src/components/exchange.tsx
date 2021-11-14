@@ -14,14 +14,14 @@ export const ExchangeView = (props: {}) => {
   const tabList = [
     {
       key: "trade",
-      tab: <div style={tabStyle}>Trade</div>,
+      tab: <div style={tabStyle}>Swap</div>,
       render: () => {
         return <TradeEntry />;
       },
     },
     {
       key: "pool",
-      tab: <div style={tabStyle}>Pool</div>,
+      tab: <div style={tabStyle}>Liquidity</div>,
       render: () => {
         return <AddToLiquidity />;
       },
@@ -34,6 +34,7 @@ export const ExchangeView = (props: {}) => {
     <div className="App-Bar">
       <div className="App-Bar-left">
         <div className="App-logo" />
+        <text> FAC SWAP </text>
       </div>
       <div className="App-Bar-right">
         <Button type="text" size="large" style={{ color: "#2abdd2" }}>
