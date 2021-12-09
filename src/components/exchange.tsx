@@ -7,6 +7,7 @@ import { useWallet } from "../utils/wallet";
 import { AccountInfo } from "./accountInfo";
 import { Settings } from "./settings";
 import { SettingOutlined } from "@ant-design/icons";
+import { WalletDisconnectButton, WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 
 export const ExchangeView = (props: {}) => {
   const { connected, wallet } = useWallet();
@@ -34,10 +35,10 @@ export const ExchangeView = (props: {}) => {
     <div className="App-Bar">
       <div className="App-Bar-left">
         <div className="App-logo" />
-        <text> FAC SWAP </text>
+        <text> FAC SWAPs </text>
       </div>
       <div className="App-Bar-right">
-        <Button type="text" size="large" style={{ color: "#2abdd2" }}>
+        <Button type="text" size="large" style={{ color: "#1597E5" }}>
           <a
             href={"https://dex.projectserum.com"}
             target="_blank"
@@ -62,7 +63,7 @@ export const ExchangeView = (props: {}) => {
               type="text"
               size="large"
               onClick={connected ? wallet.disconnect : wallet.connect}
-              style={{ color: "#2abdd2" }}
+              style={{ color: "#1597E5" }}
             >
               Connect
             </Button>
@@ -90,6 +91,10 @@ export const ExchangeView = (props: {}) => {
             />
           </Popover>
         }
+        <div className="flex space-x-5 items-center">
+{/*        <WalletMultiButton />
+        <WalletDisconnectButton />*/}
+        </div>
       </div>
     </div>
   );

@@ -14,11 +14,11 @@ export const AccountInfo = (props: {}) => {
   }
 
   return (
-    <div className="wallet-wrapper">
+    <div className="wallet-wrapper" style={{backgroundColor: '#1597E5'}}>
       <span>
         {((account?.lamports || 0) / LAMPORTS_PER_SOL).toFixed(6)} SOL
       </span>
-      <div className="wallet-key">
+      <div className="wallet-key" >
         {shortenAddress(`${wallet.publicKey}`)}
         <Identicon
           address={wallet.publicKey.toBase58()}
