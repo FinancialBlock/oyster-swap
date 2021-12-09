@@ -13,3 +13,8 @@ To inject varibles to the app, set the SWAP_PROGRAM_OWNER_FEE_ADDRESS and/or SWA
 You may want to put these in local environment files (e.g. .env.development.local, .env.production.local). See the documentation on environment variables for more information.
 
 NOTE: remember to re-build your app before deploying for your referral addresses to be reflected.
+
+
+npm run build 
+
+serve -s build
