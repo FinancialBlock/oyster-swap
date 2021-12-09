@@ -2,6 +2,7 @@
   "name": "token-swap-ui",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://financialblock.github.io/oyster-swap/",
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@project-serum/serum": "^0.13.7",
@@ -41,7 +42,7 @@
     "localnet:up": "rm client/util/store/config.json; set -x; solana-localnet down; set -e; solana-localnet up",
     "localnet:down": "solana-localnet down",
     "localnet:logs": "solana-localnet logs -f",
-    "predeploy": "git pull --ff-only && yarn && yarn build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "deploy:ar": "arweave deploy-dir build --key-file "
   },
