@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "./static/css/main.a092e24b.chunk.css",
-    "main.js": "./static/js/main.2243b5e9.chunk.js",
+    "main.js": "./static/js/main.1b2873a8.chunk.js",
     "runtime-main.js": "./static/js/runtime-main.c06bb91b.js",
     "static/css/2.4b60f7c3.chunk.css": "./static/css/2.4b60f7c3.chunk.css",
     "static/js/2.267b8a0f.chunk.js": "./static/js/2.267b8a0f.chunk.js",
     "index.html": "./index.html",
-    "precache-manifest.643985d754b4911508402b31498fc688.js": "./precache-manifest.643985d754b4911508402b31498fc688.js",
+    "precache-manifest.df23ea3d4baaceec25cd0ca6af87ddbc.js": "./precache-manifest.df23ea3d4baaceec25cd0ca6af87ddbc.js",
     "service-worker.js": "./service-worker.js",
     "static/js/2.267b8a0f.chunk.js.LICENSE.txt": "./static/js/2.267b8a0f.chunk.js.LICENSE.txt",
     "static/media/App.less": "./static/media/facxlogo.c8a93a9a.png"
@@ -16,6 +16,6 @@
     "static/css/2.4b60f7c3.chunk.css",
     "static/js/2.267b8a0f.chunk.js",
     "static/css/main.a092e24b.chunk.css",
-    "static/js/main.2243b5e9.chunk.js"
+    "static/js/main.1b2873a8.chunk.js"
   ]
 }
