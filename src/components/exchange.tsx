@@ -35,7 +35,7 @@ export const ExchangeView = (props: {}) => {
     <div className="App-Bar">
       <div className="App-Bar-left">
         <div className="App-logo" />
-        <text> FAC SWAPs </text>
+        <text> FAC Swap Beta </text>
       </div>
       <div className="App-Bar-right">
         <Button type="text" size="large" style={{ color: "#1597E5" }}>
